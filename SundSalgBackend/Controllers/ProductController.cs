@@ -83,5 +83,12 @@ namespace SundSalgBackend.Controllers
 
             return Ok();
         }
+        [HttpPost("succes")]
+        public IActionResult SavePurchase([FromBody] User purchase)
+        {
+            Console.WriteLine();
+
+            return Ok();
+        }
     }
 }

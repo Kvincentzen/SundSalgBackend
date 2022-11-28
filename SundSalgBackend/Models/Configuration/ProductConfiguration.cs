@@ -15,7 +15,8 @@ namespace SundSalgBackend.Models.Configuration
                         Name = "Protein Pulver",
                         Desc = "Med banan og chokolade smag",
                         Picture = "",
-                        Price = 320.20
+                        Price = 125,
+                        PriceId = "price_1M97kuJYRgEBAqqdoaKBOfkY"
                     },
                     new Product
                     {
@@ -23,7 +24,8 @@ namespace SundSalgBackend.Models.Configuration
                         Name = "Kreatin Pulver",
                         Desc = "Brug max 5g om dagen",
                         Picture = "",
-                        Price = 119.95
+                        Price = 119.95,
+                        PriceId = ""
                     }
                 );
         }
